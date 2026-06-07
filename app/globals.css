@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7fbfa;
+  --foreground: #21313c;
+  --navy: #0b2545;
+  --blue: #1689c7;
+  --teal: #1b9aaa;
+  --green: #4f8f5b;
+  --sand: #e5a44f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+::selection {
+  background: rgba(22, 137, 199, 0.22);
+}
+
+[id] {
+  scroll-margin-top: 96px;
+}
+
+.wave-lines {
+  background-image: url("data:image/svg+xml,%3Csvg width='900' height='120' viewBox='0 0 900 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 72 C120 18 210 126 340 68 S560 18 700 72 840 124 900 76' fill='none' stroke='%231689c7' stroke-opacity='.12' stroke-width='2'/%3E%3Cpath d='M0 94 C150 48 230 138 370 90 S575 42 745 88 850 118 900 96' fill='none' stroke='%231b9aaa' stroke-opacity='.10' stroke-width='2'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-size: 900px 120px;
+}
+
+.focus-ring {
+  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1689c7];
+}
