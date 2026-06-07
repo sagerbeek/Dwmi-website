@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://www.dwmi.nl"),
   alternates: { canonical: "/" },
+  icons: {
+    icon: [{ url: "/dwmi-logo.svg", type: "image/svg+xml" }],
+    shortcut: "/dwmi-logo.svg",
+  },
   openGraph: {
     title: "DWMI | Dutch Water Management International",
     description:
