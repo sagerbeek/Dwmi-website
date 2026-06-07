@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">DWMI logo</title>
+  <desc id="desc">DWMI logo with circular water, orange, green leaf, yellow wave and built environment forms.</desc>
+  <rect width="1024" height="1024" fill="#fff"/>
+  <g fill="none" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M114 714A430 430 0 0 1 302 214" stroke="#2ea7de" stroke-width="55"/>
+    <path d="M410 105A430 430 0 0 1 727 137" stroke="#f36d3d" stroke-width="55"/>
+    <path d="M892 384A430 430 0 0 1 897 661" stroke="#f36d3d" stroke-width="55"/>
+    <path d="M210 807A430 430 0 0 0 797 790" stroke="#f36d3d" stroke-width="55"/>
+  </g>
+
+  <path d="M145 719 384 502V91l189 198v247c0 58-24 111-65 151L347 847H145V719Zm288-492v338l67-65V325L433 227ZM315 592l-85 77v100h87l83-82V521l-85 71Z" fill="#1b345a"/>
+
+  <path d="M572 536c52-153 196-269 337-274-9 150-120 298-279 346l-87 27 29-99Zm88 1c88-38 154-108 182-190-86 29-159 96-201 183l-26 54 45-47Z" fill="#63c787"/>
+
+  <path d="M230 754c120-110 268-139 430-88 82 26 164 30 244-20-88 120-215 167-354 131-105-28-208-16-309 40l-11-63Z" fill="#d8e657"/>
+  <path d="M390 720c60-33 129-38 198-17 52 16 100 19 147 1-56 58-129 75-207 51-49-15-93-15-138-35Z" fill="#d8e657" opacity="0.92"/>
+</svg>
